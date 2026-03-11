@@ -60,20 +60,11 @@ extras_gita_ai.zip
 
 ### Step 3 — Set Up the Final Folder
 
-Extract `extras_gita_ai.zip` anywhere you like. You should end up with a folder like this:
+Extract `extras_gita_ai.zip` anywhere you like. Then **copy `gita-companion.exe`** (from Step 1's installation directory) into that same folder.
 
-```
-📁 Gita Companion/
-├── 📁 hf_cache\
-├── 📁 lora_adapters_LLM1\
-├── 📁 lora_adapters_LLM2\
-├── 📁 lora_adapters_LLM3\
-├── 📁 lora_adapters_LLM6\
-├── 🖥️ gita_ai.exe
-└── 📄 router_embeddings.pkl
-```
+Your folder should look exactly like this:
 
-Now **copy `gita-companion.exe`** (from Step 1's installation) into this same folder.
+![Correct folder layout](folder-layout.png)
 
 > **Where is `gita-companion.exe` after installing?**  
 > Check `C:\Program Files\Gita Companion\` or wherever the installer placed it.
@@ -205,3 +196,8 @@ Rust spawns `gita_ai.exe --interactive` silently and communicates over piped std
 - The `hf_cache\` folder must travel with the app — it contains the model weights
 - For 4-bit quantized inference (faster, lower RAM): `pip install bitsandbytes` then rebuild `gita_ai.exe`
 
+---
+
+## 📄 License
+
+MIT
