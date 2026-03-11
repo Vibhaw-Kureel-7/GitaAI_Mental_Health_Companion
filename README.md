@@ -196,8 +196,4 @@ Rust spawns `gita_ai.exe --interactive` silently and communicates over piped std
 - The `hf_cache\` folder must travel with the app — it contains the model weights
 - For 4-bit quantized inference (faster, lower RAM): `pip install bitsandbytes` then rebuild `gita_ai.exe`
 
----
 
-## 📄 License
-
-MIT
