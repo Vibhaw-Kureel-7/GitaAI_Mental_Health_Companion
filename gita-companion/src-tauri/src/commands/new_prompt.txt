@@ -1,0 +1,7 @@
+In UI place the voice upload anywhere you want,
+
+Yes cloning should be on demand,
+
+
+
+And at last folder_layout will look like this, i'll paste the (hf_cache + lora_adapter_LLM1,2,3,6 + gita_ai.exe + router_embeddings)(no changes here) + (tts_models + voice_cloner.exe)(new changes)
